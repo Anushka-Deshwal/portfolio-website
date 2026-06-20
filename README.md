@@ -29,6 +29,5 @@ This portfolio was created to present my work, highlight my technical skills, an
 **Anushka Deshwal**
 
 ## Live Demo
-
-https://anushka-deshwal.github.io/portfolio-website/
+https://portfolio-website-iota-topaz-36.vercel.app/
 
