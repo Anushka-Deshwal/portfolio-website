@@ -544,6 +544,12 @@ footer
     border-top:1px solid rgba(168,85,247,0.15);
     margin-top:60px;
 }
+.menu-btn{
+    display:none;
+    font-size:28px;
+    color:white;
+    cursor:pointer;
+}
 /* =========================
 TABLET (991px)
 ========================= */
@@ -594,7 +600,6 @@ TABLET (991px)
 /* =========================
 MOBILE (768px)
 ========================= */
-
 @media (max-width:768px){
 
     body{
@@ -715,3 +720,4 @@ MOBILE (768px)
     }
 
 }
+
