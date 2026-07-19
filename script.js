@@ -11,11 +11,13 @@ document.querySelectorAll('.nav-links a').forEach(link => {
             this.getAttribute('href')
         );
 
-        if (target) {
-            target.scrollIntoView({
-                behavior: 'smooth'
-            });
-        }
+       if (target) {
+    target.scrollIntoView({
+        behavior: "smooth"
+    });
+
+    navMenu.classList.remove("active");
+}
 
     });
 });
@@ -172,5 +174,14 @@ window.addEventListener("scroll", () => {
     });
 
 });
+// --------------------------
+// Mobile Menu
+// --------------------------
 
+const menuBtn = document.querySelector(".menu-btn");
+const navMenu = document.querySelector(".nav-links");
+
+menuBtn.addEventListener("click", () => {
+    navMenu.classList.toggle("active");
+});
  
